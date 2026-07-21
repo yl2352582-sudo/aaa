@@ -1,0 +1,26 @@
+{
+  "canvasWidth": 1080.0,
+  "canvasHeight": 1080.0,
+  "items": [
+    {
+      "id": 1,
+      "image": "images/60a537c7f2013b5ccf87463f26687897~tplv-tiktokx-cropcenter_1080_1080.jpeg",
+      "x": 100.0,
+      "y": 100.0,
+      "width": 300.0,
+      "height": 300.0,
+      "rotation": 0,
+      "zIndex": 0.0,
+      "opacity": 1.0,
+      "clickable": true,
+      "name": "",
+      "price": "",
+      "url": "",
+      "brand": "",
+      "tags": "",
+      "sku": "",
+      "description": "",
+      "detailImage": ""
+    }
+  ]
+}

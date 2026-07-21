@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="canvas" id="canvas"></div>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+
+<div id="sidePanel">
+    <div class="panel-header">
+        <span>商品详情</span>
+        <button class="close" onclick="closePanel()">&times;</button>
+    </div>
+    <img class="detail-img" id="detailImg" src="" alt="">
+    <div class="panel-body">
+        <div class="brand" id="detailBrand"></div>
+        <div class="name" id="detailName"></div>
+        <div class="desc" id="detailDesc"></div>
+        <div class="tags-wrap">
+            <span class="tag-badge" id="detailTags"></span>
+        </div>
+        <div class="price" id="detailPrice"></div>
+        <div class="sku" id="detailSku"></div>
+        <a class="buy-btn" id="detailBuy" href="" target="_blank">查看商品 &rarr;</a>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

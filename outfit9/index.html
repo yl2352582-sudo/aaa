@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="logo">LOOKBOOK</div>
+</header>
+
+<main>
+    <div class="canvas" id="canvas"></div>
+</main>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+
+<aside id="sidePanel">
+    <button class="close-btn" onclick="closePanel()">&times;</button>
+    <div class="gallery">
+        <img class="detail-img" id="detailImg" src="" alt="">
+    </div>
+    <div class="info">
+        <div class="brand" id="detailBrand"></div>
+        <h2 class="name" id="detailName"></h2>
+        <div class="price" id="detailPrice"></div>
+        <div class="desc" id="detailDesc"></div>
+        <div class="tags-wrap" id="detailTagsWrap"></div>
+        <div class="sku" id="detailSku"></div>
+        <a class="buy-btn" id="detailBuy" href="" target="_blank">Buy Now</a>
+    </div>
+</aside>
+
+<script src="app.js"></script>
+</body>
+</html>
